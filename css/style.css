@@ -37,9 +37,9 @@ body {
 	top: 1rem;
 	right: 0;
 	background-color: white;
-	width: 30px;
-	height: 30px;
-	line-height: 30px;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
 	text-align: center;
 	vertical-align: middle;
 	font-size: 1.5rem;
@@ -47,7 +47,8 @@ body {
 
 
 .discount,
-.sustainability {
+.sustainability,
+.sustainability1 {
 	display: inline-block;
 	padding: 0.5rem;
     
@@ -58,7 +59,7 @@ body {
     color: white;
 	background-color: #eb0037;
     display: inline-block;
-    bottom: 60px;
+    bottom: 20px;
 }
 
 .sustainability {
@@ -66,8 +67,17 @@ body {
 	background-color: #00875a;
     display: inline-block;
     position: absolute;
-    bottom: 60px;
+    bottom: 20px;
     left: 55px;
+}
+
+.sustainability1 {
+    color: white;
+	background-color: #00875a;
+    display: inline-block;
+    position: absolute;
+    bottom: 20px;
+    left: 0;
 }
 
 .image_2 {
